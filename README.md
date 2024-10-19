@@ -1,7 +1,3 @@
-#### Echipa temei 3 SDA:
-#### andrei.gheorghe0704 - Gheorghe Andrei-Bogdan
-#### mihai.craciun1902 - Craciun Mihai-Alexandru
-
 # Social Media App
 
 ## Introduction
@@ -152,3 +148,5 @@ They are dependent on the implementation of the data structures.
 5. <posts.c/h> stores the post interactions.
 
 6. <feed.c/h> stores the platform interactions.
+
+#### Copyright: 2024 - Gheorghe Andrei-Bogdan
