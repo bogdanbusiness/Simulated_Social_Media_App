@@ -27,31 +27,31 @@ feed, among other things.
 
 ### User Interactions
 
-add <name-1> <name-2>      Adds a connection between 2 friends.
-remove <name-1> <name-2>   Removes the connection between 2 (ex-)friends.
-distance <name-1> <name-2> Gets the distance between 2 people.
-suggestions <name>         Gives friend request suggestions to a user.
-common <name-1> <name-2>   Finds the common friends between 2 users.
-friends <name>             Returns the number of friends a user has.
-popular <name>             Finds who is the most popular friend of a user.
+- **add** [name-1] [name-2]      Adds a connection between 2 friends.
+- **remove** [name-1] [name-2]   Removes the connection between 2 (ex-)friends.
+- **distance** [name-1] [name-2] Gets the distance between 2 people.
+- **suggestions** [name]         Gives friend request suggestions to a user.
+- **common** [name-1] [name-2]   Finds the common friends between 2 users.
+- **friends** [name]             Returns the number of friends a user has.
+- **popular** [name]             Finds who is the most popular friend of a user.
 
 ### Post Interactions
 
-create <name> <title>                            Creates a new post.
-repost <name> <post-id> {repost-id}              Reposts a post.
-common-repost <post> <repost-id-1> <repost-id-2> Finds the common reposts
-                                                 between 2 reposts.
-like <name> <post-id> {repost-id}                Likes a (re)post.
-ratio <post-id>                                  Finds if a post got ratio'd.
-delete <post-id> {repost-id}                     Delets a (re)post.
-get-likes <post-id> {repost-id}                  Returns the likes of (re)post.
+- **create** [name] [title]                           Creates a new post.
+- **repost** [name] [post-id] {repost-id}              Reposts a post.
+- **common-repost** [post] [repost-id-1] [repost-id-2] Finds the common reposts
+                                                       between 2 reposts.
+- **like** [name] [post-id] {repost-id}                Likes a (re)post.
+- **ratio** [post-id]                                  Finds if a post got ratio'd.
+- **delete** [post-id] {repost-id}                     Delets a (re)post.
+- **get-likes** [post-id] {repost-id}                  Returns the likes of (re)post.
 
 ### Platform Interactions
 
-feed <name> <feed-size>         Creates a personilized feed for the user.
-view-profile <name>             Views the profile of a user.
-friends-repost <name> <post-id> Finds all the reposts of friends of a user.
-common-group <name>             Finds the biggest clique a user is part of.
+**feed** [name] [feed-size]         Creates a personilized feed for the user.
+**view-profile** [name]             Views the profile of a user.
+**friends-repost** [name] [post-id] Finds all the reposts of friends of a user.
+**common-group** [name]             Finds the biggest clique a user is part of.
 
 ## Documentation
 
